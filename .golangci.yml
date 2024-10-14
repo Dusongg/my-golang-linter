@@ -1,0 +1,10 @@
+linters-settings:
+  custom:
+    func-name-check:
+      path: func-name-check.so
+      description: The description of the linter. This is optional, but shows up when running `golangci-lint linters`
+
+linters:
+  disable-all: true
+  enable:
+    - func-name-check
